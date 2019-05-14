@@ -1,0 +1,34 @@
+{
+  "name": "react-static-example-basic",
+  "private": true,
+  "scripts": {
+    "start": "react-static start",
+    "stage": "react-static build --staging",
+    "build": "react-static build",
+    "analyze": "react-static build --analyze",
+    "serve": "serve dist -p 3000"
+  },
+  "dependencies": {
+    "@reach/router": "1.2.1",
+    "axios": "0.18.0",
+    "react": "16.8.6",
+    "react-dom": "16.8.6",
+    "react-router-dom": "5.0.0",
+    "react-spring": "8.0.20",
+    "react-static": "7.0.10",
+    "react-static-plugin-react-router": "7.0.10",
+    "react-static-plugin-sitemap": "7.0.10",
+    "react-static-plugin-source-filesystem": "7.0.10"
+  },
+  "devDependencies": {
+    "babel-eslint": "10.0.1",
+    "eslint": "5.16.0",
+    "eslint-config-react-app": "4.0.1",
+    "eslint-config-react-tools": "1.1.7",
+    "eslint-plugin-flowtype": "3.8.2",
+    "eslint-plugin-import": "2.17.2",
+    "eslint-plugin-jsx-a11y": "6.2.1",
+    "eslint-plugin-react": "7.13.0",
+    "serve": "11.0.0"
+  }
+}
